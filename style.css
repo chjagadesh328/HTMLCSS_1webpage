@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* for right extra space out of page*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+.toggles box-icon{
+    height: 60px;
+    width:50px;
+    
+}
+
+.navbar{
+    /* background-color: rgb(176, 9, 9); */
+    height: 6.5vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+
+    
+}
+
+.logo img{
+    /* background-color: green; */
+    
+    height: 10vh;
+    max-width: 100%;
+    object-fit: contain;
+        
+}
+
+/* .menu{
+    /* width:80px; */
+    /* background-color: peru;  */
+
+
+.menu ul{
+    /* background-color: yellow; */
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    height: 6vh;
+    
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0;
+    
+    
+}
+/* .nav{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+} */
+
+.menu li{
+    margin:20px ;
+    font-size: 25px ;
+    font-weight:700;
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    word-spacing: 75px;
+    justify-content: space-between;
+    
+}
+
+.toggles img{
+    /* background-color: blue; */
+    margin-right: auto;
+    height: 6.5vh;
+    object-fit: contain;
+    padding: 3px 5px;
+    max-width: 100%;
+    
+}
+
+.heropage {
+    /* background-color: bisque; */
+    position: relative; /* Make the container relatively positioned */
+    width: 100%;
+    height: 70vh; /* Set height as needed */
+}
+
+.heropage div {
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.heropage img {
+    width: 100%;
+    height: 70vh;
+    object-fit:cover; /* Ensure the image covers the entire container */
+}
+
+.heropage button {
+    width:31vw;
+    height: 4rem;
+    position: relative; /* Position the button relatively */
+    bottom: 110px; /* Distance from the bottom */
+    left: 59px; /* Distance from the left */
+    padding: 0px 40px;
+    background-image: linear-gradient( black,#34393f);
+    /* background-color: #34393f; */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    /* justify-content: center; */
+}
+/* .heropage{
+    background-color: brown;
+
+}
+.heropage img{
+
+    width: 100%;
+    height: 70vh;
+} */
+
+.ash{
+    display: flex;
+    background-color :#b2b2b2 ;
+    justify-content: space-between;
+    height: 23.5vh;
+    align-items: center;
+
+}
+
+.ash p{
+    font-size: 21px;
+    justify-content: space-around;
+    /* padding-left: 50px; */
+    padding: 30px;
+    margin: 2vb;
+    text-align: center;
+    
+
+}
+
+/* .picture-section{
+
+}
+
+.part1 img{
+    /* width:30%;
+    height: 35%;
+    padding-left: 0.5%; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+} */ */
+
+.pictures-section {
+    background-color: #dadcdf;
+    padding: 2rem 5%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed */
+    position: absolute;
+    /* height: 110vh; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; Allow items to wrap to the next line if needed */
+}
+
+.pictures-section > div {
+    width: 30%; /* Adjust width as needed */
+    /* margin: 10px; Adjust margin between items */
+    text-align: center; /* Center content horizontally */
+}
+
+.pictures-section img {
+    /* max-width: 100%; */
+    width: 100%;
+    background-color: pink;
+    /* height: auto; Maintain aspect ratio */
+}
+.pictures-section h2{
+    background-color: #dadcdf;
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-left: 85px;
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+/* .pictures-section h4 {
+    margin-top: 10px; /* Adjust spacing */
+
+/* .pictures-section p {
+    margin: 10px 0; /* Adjust spacing */
+
+
+.pictures-section button {
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.part1 h4{
+    text-align: left;
+}
+.part2 h4{
+    text-align: center;
+}
+
+.final button{
+    /* background-color: pink; */
+    margin-top: 20px;
+}
+.final img{
+    width:25vw;
+} 
+
+/* .part1 {
+    flex:1 1 300px;
+    margin: 10px;
+    /* padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-between; */
+
+.part1 ,h4, p, button{
+     position: relative;
+    text-align: left;
+}
+
+.part3 ,h4, p, button{
+    position: relative;
+    text-align: right;
+}
+.final{
+    padding: 85px;
+    /* background-color: blueviolet; */
+    background-color: #dadcdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    gap: 85px;
+
+}
+
